@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Silkscreen&family=Josefin+Sans&family=Jost&family=Roboto&famil y=Montserrat&family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Silkscreen&family=Josefin+Sans&family=Jost&family=Roboto&family=Montserrat&family=Open+Sans&family=Poppins&display=swap');
 //////////////////PARAMETERS////////////////////////////////A
 $blue-color: #251af3;
 $darkblue: #00008b;
@@ -65,13 +65,13 @@ section {
 }
 
 nav {
-    padding: 20px 0 10px;
+    padding: 5px 0 15px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100vw;
-    height: 4rem;
+    height: 3rem;
     background: #fff;
     z-index: 10;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
@@ -107,10 +107,11 @@ nav {
     }
     li {
         a {
-            font-family: "Jost";
+            font-family: "Roboto";
             color: $blue-color;
             text-transform: capitalize;
             font-size: 1.1rem;
+            font-weight: 600;
         }
     }
     select {
@@ -118,9 +119,10 @@ nav {
         outline: none;
         font-size: 0.9rem;
         width: 115px;
-        font-family: "Jost";
+        font-family: "Roboto";
         color: $blue-color;
         background: #fff;
+        font-weight: 600;
         font-size: 1.1rem;
         padding: 0 10px;
         cursor: pointer;
@@ -472,7 +474,9 @@ footer {
         font-weight: 500;
     }
     h6 {
+        text-transform: capitalize;
         font-size: 1rem;
+        font-weight: 500;
     }
     p {
         font-family: $fontf;
@@ -725,6 +729,9 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    nav {
+        padding: 5px 0 10px;
+    }
     .menu-btn {
         display: block;
     }
@@ -736,8 +743,10 @@ footer {
         height: 0;
         overflow: hidden;
         select {
+            width: 130px;
             font-size: 1.5rem;
-            padding-left: 0;
+            // padding-left:0;
+            padding: 0;
         }
     }
     .navbar {

@@ -21,7 +21,7 @@ const Blog = () => {
         <section>
           <div className="numbers">
             <h3>
-            Our numbers speak for <br /> themselves
+            Our numbers speak for <br /> <span>themselves</span>
             </h3>
             <div className="grid">
               <div className="item">
@@ -64,13 +64,13 @@ const Blog = () => {
           </div>
           <div className="mission">
               <div className="mission-text">
-                <h4>Our mission</h4>
+                <h4>Our <span>mission</span></h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsa ducimus. Itaque repudiandae animi sunt fugiat delectus totam adipisci non quia corporis, unde, temporibus, ea perspiciatis impedit! Qui sed aperiam maxime optio libero. Hic itaque provident perferendis? Minima, commodi pariatur.
                 </p>
               </div>
               <div className="mission-text">
-                <h4>Our vision</h4>
+                <h4>Our <span>vision</span></h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsa ducimus. Itaque repudiandae animi sunt fugiat delectus totam adipisci non quia corporis, unde, temporibus, ea perspiciatis impedit! Qui sed aperiam maxime optio libero. Hic itaque provident perferendis? Minima, commodi pariatur.
                 </p>
@@ -78,7 +78,7 @@ const Blog = () => {
             </div>
           <div className="team">
             <h4>
-            The amazing team behind <br /> our company
+            The amazing team behind <br /> <span>our company</span>
             </h4>
             <div className="team-container">
               <div className="member">

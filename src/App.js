@@ -19,7 +19,8 @@ function App() {
     });
     sr.reveal(
       `
-      .item
+      .item,
+      .member
       `,
       {
         opacity: 0,
@@ -40,7 +41,8 @@ function App() {
       .home,
       .question,
       .engine,
-      .footer-container
+      .footer-container,
+      .contact
       `,
       {
         opacity: 0,
