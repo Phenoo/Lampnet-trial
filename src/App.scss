@@ -120,6 +120,7 @@ nav {
         width: 115px;
         font-family: "Jost";
         color: $blue-color;
+        background: #fff;
         font-size: 1.1rem;
         padding: 0 10px;
         cursor: pointer;
@@ -823,9 +824,6 @@ footer {
 }
 
 @media screen and (max-width: 430px) {
-    .navbar {
-        width: 70vw;
-    }
     .home {
         h2 {
             font-size: 2.1rem;

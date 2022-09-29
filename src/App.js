@@ -32,7 +32,7 @@ function App() {
     const srl = scrollreveal({
       origin: "left",
       distance: "50px",
-      duration: 2000,
+      duration: 1500,
       reset: true
     });
     srl.reveal(

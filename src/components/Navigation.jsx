@@ -16,7 +16,7 @@ const Navigation = () => {
                 navbar ?  <Logo /> : ''
               }
             </div>
-            <ul>
+            <ul onClick={() => setNavbar(!navbar)}>
               <li>
                 <Link to='/'>
                   <select name="Products" id="">
