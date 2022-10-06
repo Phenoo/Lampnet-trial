@@ -20,7 +20,7 @@ function App() {
     sr.reveal(
       `
       .item,
-      .member
+      .member,
       `,
       {
         opacity: 0,

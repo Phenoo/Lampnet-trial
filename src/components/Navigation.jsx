@@ -16,7 +16,14 @@ const Navigation = () => {
                 navbar ?  <Logo /> : ''
               }
             </div>
-            <ul onClick={() => setNavbar(!navbar)}>
+            <ul onClick={() => setNavbar(!navbar)} className='navanimate'>
+              <li>
+              <li>
+                <Link to='/'>
+                  home
+                </Link>
+              </li>
+              </li>
               <li>
                 <Link to='/'>
                   <select name="Products" id="">
@@ -30,7 +37,7 @@ const Navigation = () => {
               </li>
               <li>
                 <Link to='/blog'>
-                  blog
+                  about
                 </Link>
               </li>
               <li>

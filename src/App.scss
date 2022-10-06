@@ -39,7 +39,9 @@ p {
 h1,
 h6,
 h4 {
-    font-family: "Roboto";
+    font-family: "Jost";
+    font-weight: 500;
+    text-transform: capitalize;
 }
 
 li {
@@ -74,7 +76,8 @@ nav {
     height: 3rem;
     background: #fff;
     z-index: 10;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
+    // box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }
 
 .header {
@@ -103,26 +106,25 @@ nav {
     ul {
         display: flex;
         gap: 1rem;
-        font-family: "Poppins";
     }
     li {
         a {
             font-family: "Roboto";
-            color: $blue-color;
+            color: #111;
             text-transform: capitalize;
             font-size: 1.1rem;
-            font-weight: 600;
+            font-weight: 500;
         }
     }
     select {
         border: none;
         outline: none;
         font-size: 0.9rem;
-        width: 115px;
+        width: 120px;
         font-family: "Roboto";
-        color: $blue-color;
+        color: #111;
         background: #fff;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 1.1rem;
         padding: 0 10px;
         cursor: pointer;
@@ -164,12 +166,14 @@ nav {
         }
     }
     h2 {
-        font-family: "Roboto";
-        font-size: 3.5rem;
+        font-family: "Jost";
+        font-size: 3rem;
+        font-weight: 500;
     }
     span {
         color: $blue-color;
         display: inline;
+        text-transform: capitalize;
     }
     p {
         margin: 10px 0;
@@ -329,14 +333,14 @@ nav {
             font-size: 1.4rem;
         }
         h5 {
-            font-weight: 600;
+            font-weight: 500;
             color: $blue-color;
             font-size: 1.25rem;
         }
         h6 {
             font-size: 1.25rem;
             font-family: 'Jost';
-            font-weight: 600;
+            font-weight: 500;
         }
     }
 }
@@ -742,10 +746,10 @@ footer {
         width: 0;
         height: 0;
         overflow: hidden;
+        transition: width 0.5s ease;
         select {
             width: 130px;
             font-size: 1.5rem;
-            // padding-left:0;
             padding: 0;
         }
     }
@@ -838,7 +842,7 @@ footer {
             font-size: 2.1rem;
         }
         p {
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
         .image {
             img {

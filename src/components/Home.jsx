@@ -15,15 +15,23 @@ const Home = () => {
             </h6>
           </div>
           <h2>
-            Banking & Transfers at your <span>
-              <Typewriter 
-                options={{
-                  strings: ['Fingertips'],
-                  autoStart: true,
-                  loop: true,
-                }}
-                />
-              </span>
+            Banking & Transfers at your 
+            <span>
+            <Typewriter options={{
+              autoStart: true,
+              loop: true
+              }} 
+              onInit={(typewriter) => {
+              typewriter.typeString(`Convenience`)
+              .pauseFor(2500)
+              .deleteAll()
+              .typeString(`Fingertips`)
+              .pauseFor(2500)
+              .deleteAll()
+              .start()
+            }}
+            />
+            </span>
           </h2>
           <p>
             FinTri is fully featured US bank account fot non-US residents (Africans) and its deposit is fully protected
